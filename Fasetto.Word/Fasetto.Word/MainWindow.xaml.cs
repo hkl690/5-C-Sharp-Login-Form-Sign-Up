@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Fasetto_Word
+namespace Fasetto.Word
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
