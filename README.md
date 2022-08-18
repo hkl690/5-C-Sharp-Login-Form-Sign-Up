@@ -1,4 +1,4 @@
-# 5 C-Sharp Custom Window Chrome and Styles
+# 5-C-Sharp Custom Window Chrome and Styles
  
 Creating a simple pop-up Window with menu commands and can be resized. A logo is added in the title for customization.
 
