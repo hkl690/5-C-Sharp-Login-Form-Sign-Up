@@ -7,26 +7,11 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Fody/6.6.2": {},
-      "Microsoft.WindowsAPICodePack-Core/1.1.0": {
+      "Microsoft.Windows.Shell/3.0.1": {
         "runtime": {
-          "lib/Microsoft.WindowsAPICodePack.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "Microsoft.WindowsAPICodePack-Shell/1.1.0": {
-        "dependencies": {
-          "Microsoft.WindowsAPICodePack-Core": "1.1.0"
-        },
-        "runtime": {
-          "lib/Microsoft.WindowsAPICodePack.Shell.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          },
-          "lib/Microsoft.WindowsAPICodePack.ShellExtensions.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net40/Microsoft.Windows.Shell.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
           }
         }
       },
@@ -51,19 +36,12 @@
       "path": "fody/6.6.2",
       "hashPath": "fody.6.6.2.nupkg.sha512"
     },
-    "Microsoft.WindowsAPICodePack-Core/1.1.0": {
+    "Microsoft.Windows.Shell/3.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jU5Y9fvuC/USod2RCCHhs1PJ/T5ANBIXPhNpew53s5SDfRzvIE97XcIt9U8Wm+DF0bTJAdF9v9PD0cgbTi7uMg==",
-      "path": "microsoft.windowsapicodepack-core/1.1.0",
-      "hashPath": "microsoft.windowsapicodepack-core.1.1.0.nupkg.sha512"
-    },
-    "Microsoft.WindowsAPICodePack-Shell/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8WvLG0TNTylzMB8gnZeZDG68/DsagAF64K35RC2Y/zocHp4e03Uj/kba6egQlq1+0uVv04FpLG+CmENEIN53rg==",
-      "path": "microsoft.windowsapicodepack-shell/1.1.0",
-      "hashPath": "microsoft.windowsapicodepack-shell.1.1.0.nupkg.sha512"
+      "sha512": "sha512-Kv495vwGhlD8SjmSsf3bTs/Bl5ju0CL/c7aO6mQGWmpxeye9tfprBDrftqpAs1yBJU9OfA2hK3+rLApMg/dUUA==",
+      "path": "microsoft.windows.shell/3.0.1",
+      "hashPath": "microsoft.windows.shell.3.0.1.nupkg.sha512"
     },
     "PropertyChanged.Fody/3.4.1": {
       "type": "package",

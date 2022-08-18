@@ -26,6 +26,7 @@
     <None Remove="Fonts\Lato-Thin.ttf" />
     <None Remove="Fonts\Lato-ThinItalic.ttf" />
     <None Remove="Images\Logo\logo-small.png" />
+    <None Remove="Images\Logo\robotxgames.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Windows.Shell" Version="3.0.1" />
     <PackageReference Include="PropertyChanged.Fody" Version="3.4.1" />
   </ItemGroup>
 
@@ -55,6 +56,7 @@
     <Resource Include="Fonts\Lato-Thin.ttf" />
     <Resource Include="Fonts\Lato-ThinItalic.ttf" />
     <Resource Include="Images\Logo\logo-small.png" />
+    <Resource Include="Images\Logo\robotxgames.png" />
   </ItemGroup>
 
   <ItemGroup>

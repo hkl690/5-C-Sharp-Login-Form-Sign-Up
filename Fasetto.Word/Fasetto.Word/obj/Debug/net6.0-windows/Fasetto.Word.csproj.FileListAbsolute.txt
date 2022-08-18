@@ -22,9 +22,6 @@ C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fas
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\ref\Fasetto.Word.dll
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Fasetto.Word.csproj.Fody.CopyLocal.cache
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Fasetto.Word.csproj.Fody.RuntimeCopyLocal.cache
-C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
-C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
-C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Styles\Buttons.baml
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Styles\Colors.baml
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Styles\Fonts.baml
@@ -32,3 +29,5 @@ C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fas
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Styles\Windows.baml
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\App.baml
 C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\Fasetto.Word.csproj.CopyComplete
+C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\jinaw\Documents\GitHub\Custom-Window-Chrome-and-Styles\Fasetto.Word\Fasetto.Word\bin\Debug\net6.0-windows\Microsoft.Windows.Shell.dll

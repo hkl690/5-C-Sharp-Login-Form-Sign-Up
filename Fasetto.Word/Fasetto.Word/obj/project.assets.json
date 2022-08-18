@@ -8,27 +8,17 @@
           "build/Fody.targets": {}
         }
       },
-      "Microsoft.WindowsAPICodePack-Core/1.1.0": {
+      "Microsoft.Windows.Shell/3.0.1": {
         "type": "package",
         "compile": {
-          "lib/Microsoft.WindowsAPICodePack.dll": {}
+          "lib/net40/Microsoft.Windows.Shell.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/Microsoft.WindowsAPICodePack.dll": {}
-        }
-      },
-      "Microsoft.WindowsAPICodePack-Shell/1.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.WindowsAPICodePack-Core": "1.1.0"
-        },
-        "compile": {
-          "lib/Microsoft.WindowsAPICodePack.Shell.dll": {},
-          "lib/Microsoft.WindowsAPICodePack.ShellExtensions.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.WindowsAPICodePack.Shell.dll": {},
-          "lib/Microsoft.WindowsAPICodePack.ShellExtensions.dll": {}
+          "lib/net40/Microsoft.Windows.Shell.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "PropertyChanged.Fody/3.4.1": {
@@ -37,10 +27,14 @@
           "Fody": "6.6.2"
         },
         "compile": {
-          "lib/netstandard2.1/PropertyChanged.dll": {}
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/PropertyChanged.dll": {}
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/PropertyChanged.Fody.props": {}
@@ -82,35 +76,17 @@
         "netstandardtask/Mono.Cecil.pdb"
       ]
     },
-    "Microsoft.WindowsAPICodePack-Core/1.1.0": {
-      "sha512": "jU5Y9fvuC/USod2RCCHhs1PJ/T5ANBIXPhNpew53s5SDfRzvIE97XcIt9U8Wm+DF0bTJAdF9v9PD0cgbTi7uMg==",
+    "Microsoft.Windows.Shell/3.0.1": {
+      "sha512": "Kv495vwGhlD8SjmSsf3bTs/Bl5ju0CL/c7aO6mQGWmpxeye9tfprBDrftqpAs1yBJU9OfA2hK3+rLApMg/dUUA==",
       "type": "package",
-      "path": "microsoft.windowsapicodepack-core/1.1.0",
+      "path": "microsoft.windows.shell/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/Microsoft.WindowsAPICodePack.XML",
-        "lib/Microsoft.WindowsAPICodePack.dll",
-        "lib/Microsoft.WindowsAPICodePack.pdb",
-        "microsoft.windowsapicodepack-core.1.1.0.nupkg.sha512",
-        "microsoft.windowsapicodepack-core.nuspec"
-      ]
-    },
-    "Microsoft.WindowsAPICodePack-Shell/1.1.0": {
-      "sha512": "8WvLG0TNTylzMB8gnZeZDG68/DsagAF64K35RC2Y/zocHp4e03Uj/kba6egQlq1+0uVv04FpLG+CmENEIN53rg==",
-      "type": "package",
-      "path": "microsoft.windowsapicodepack-shell/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Microsoft.WindowsAPICodePack.Shell.dll",
-        "lib/Microsoft.WindowsAPICodePack.Shell.pdb",
-        "lib/Microsoft.WindowsAPICodePack.Shell.xml",
-        "lib/Microsoft.WindowsAPICodePack.ShellExtensions.XML",
-        "lib/Microsoft.WindowsAPICodePack.ShellExtensions.dll",
-        "lib/Microsoft.WindowsAPICodePack.ShellExtensions.pdb",
-        "microsoft.windowsapicodepack-shell.1.1.0.nupkg.sha512",
-        "microsoft.windowsapicodepack-shell.nuspec"
+        "lib/net40/Microsoft.Windows.Shell.dll",
+        "lib/net40/Microsoft.Windows.Shell.pdb",
+        "microsoft.windows.shell.3.0.1.nupkg.sha512",
+        "microsoft.windows.shell.nuspec"
       ]
     },
     "PropertyChanged.Fody/3.4.1": {
@@ -138,7 +114,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Microsoft.WindowsAPICodePack-Shell >= 1.1.0",
+      "Microsoft.Windows.Shell >= 3.0.1",
       "PropertyChanged.Fody >= 3.4.1"
     ]
   },
@@ -159,7 +135,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -181,9 +157,9 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
-          "Microsoft.WindowsAPICodePack-Shell": {
+          "Microsoft.Windows.Shell": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[3.0.1, )"
           },
           "PropertyChanged.Fody": {
             "target": "Package",
@@ -196,7 +172,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -208,7 +185,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -217,18 +194,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.WindowsAPICodePack-Core 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.WindowsAPICodePack-Core",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.WindowsAPICodePack-Shell 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.WindowsAPICodePack-Shell",
+      "message": "Package 'Microsoft.Windows.Shell 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Windows.Shell",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]
