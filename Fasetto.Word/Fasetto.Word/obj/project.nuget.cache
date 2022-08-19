@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0G55ezGHewzuF28drY8YlTgBVPe3tTd9QeAIpob6o0bkEi5wmQkr5a/HuotyC4hiczTHZiW7IXqT3jsk1U6Kw==",
+  "dgSpecHash": "BYL6baCoRz6xA0XUdvXuNYeV30dSIaoEIQTgQNM+YDPKLHR4i8jO6KDXh9Md3A1qkMBIE04oNo2vNT6wjLzStg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jinaw\\Documents\\GitHub\\Custom-Window-Chrome-and-Styles\\Fasetto.Word\\Fasetto.Word\\Fasetto.Word.csproj",
+  "projectFilePath": "C:\\Users\\jinaw\\Documents\\GitHub\\6-C-Sharp-Login-Form-Sign-Up\\Fasetto.Word\\Fasetto.Word\\Fasetto.Word.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jinaw\\.nuget\\packages\\fody\\6.6.2\\fody.6.6.2.nupkg.sha512",
     "C:\\Users\\jinaw\\.nuget\\packages\\microsoft.windows.shell\\3.0.1\\microsoft.windows.shell.3.0.1.nupkg.sha512",
