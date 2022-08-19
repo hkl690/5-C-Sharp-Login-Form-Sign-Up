@@ -26,5 +26,10 @@ namespace Fasetto.Word
 
             this.DataContext = new WindowViewModel(this);
         }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }

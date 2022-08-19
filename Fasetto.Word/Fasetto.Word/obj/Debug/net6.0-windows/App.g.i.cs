@@ -59,7 +59,7 @@ namespace Fasetto.Word {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/Fasetto.Word;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Fasetto.Word;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

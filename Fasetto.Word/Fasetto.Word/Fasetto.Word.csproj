@@ -25,6 +25,8 @@
     <None Remove="Fonts\Lato-Semibold.ttf" />
     <None Remove="Fonts\Lato-Thin.ttf" />
     <None Remove="Fonts\Lato-ThinItalic.ttf" />
+    <None Remove="Images\Backgrounds\emoji-background.png" />
+    <None Remove="Images\Backgrounds\robotxgames.png" />
     <None Remove="Images\Logo\logo-small.png" />
     <None Remove="Images\Logo\robotxgames.png" />
   </ItemGroup>
@@ -55,6 +57,8 @@
     <Resource Include="Fonts\Lato-Semibold.ttf" />
     <Resource Include="Fonts\Lato-Thin.ttf" />
     <Resource Include="Fonts\Lato-ThinItalic.ttf" />
+    <Resource Include="Images\Backgrounds\emoji-background.png" />
+    <Resource Include="Images\Backgrounds\robotxgames.png" />
     <Resource Include="Images\Logo\logo-small.png" />
     <Resource Include="Images\Logo\robotxgames.png" />
   </ItemGroup>
